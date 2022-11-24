@@ -1,0 +1,30 @@
+:root {
+	--primary_color: #e7f4e9;
+	--primary_light_color: #ffffff;
+	--primary_dark_color: #b5c1b7;
+}
+
+body {
+	margin: 0;
+}
+
+.md_header {
+	background-color: var(--primary_color);
+
+
+
+;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+h1{
+	grid-column-end: span 5; 
+	grid-column-start: 5;
+    font-weight: 100;
+}
+
+button {
+	background-color: #80cbc4;
+	grid-column-start: 12;
+}
